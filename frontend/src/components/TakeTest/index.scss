@@ -1,0 +1,31 @@
+.takeTestPage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+
+    .takeTestTitle {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .takeTestInput {
+        margin: 10px 0;
+    }
+
+    .takeTestNote {
+        font-size: 14px;
+        opacity: 0.8;
+    }
+
+    .takeTestButton {
+        margin: 20px 0;
+    }
+
+    .takeTestResult {
+        margin: 20px 0;
+        font-size: 18px;
+        text-align: center;
+    }
+}

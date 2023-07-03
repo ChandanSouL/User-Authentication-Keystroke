@@ -1,0 +1,25 @@
+.trainTestPage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+
+    .trainTestTitle {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .trainTestInput {
+        margin: 10px 0;
+    }
+
+    .trainTestNote {
+        font-size: 14px;
+        opacity: 0.8;
+    }
+
+    .trainTestButton {
+        margin: 20px 0;
+    }
+}

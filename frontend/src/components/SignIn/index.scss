@@ -1,0 +1,25 @@
+.signInPage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+
+    .signInTitle {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .signInInputs {
+        width: 50%;
+
+        .signInInput {
+            margin: 10px 0;
+        }
+
+        .signInButton {
+            margin: 20px 0;
+        }
+    }
+}

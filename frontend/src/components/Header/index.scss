@@ -1,0 +1,80 @@
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.l-navbar {
+    width: 300px;
+    background-color: #4723D9;
+    color: #F7F6FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l-header {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.l-header-small {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.l-header-logo {
+    padding: 10px;
+}
+
+.l-nav-links {
+    width: 100%;
+}
+
+.l-nav-link {
+    flex: 1;
+    width: calc(100% - 25px);
+    padding: 10px;
+    font-size: 18px;
+    transition: .3s;
+    border-left: 5px #4723D9 solid;
+    cursor: pointer;
+
+    &:hover {
+        color: #AFA5D9;
+        border-left: 5px #AFA5D9 solid;
+    }
+
+    &.active {
+        border-left: 5px white solid;
+    }
+}
+
+.r-navbar {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.r-navbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.r-navbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #5a3eca;
+    border-radius: 10px;
+}
+
+.r-navbar::-webkit-scrollbar-thumb {
+    background: #5a3eca;
+    border-radius: 10px;
+}
+
+.r-navbar::-webkit-scrollbar-thumb:hover {
+    background: #5a3eca;
+}
